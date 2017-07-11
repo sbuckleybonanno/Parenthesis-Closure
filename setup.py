@@ -10,9 +10,9 @@ def read(fname):
 
 setup(
     name = "parenthesis-closure",
-    version = "0.8",
-    author = ["Samuel Thomas","Samuel Buckley-Bonanno"],
-    author_email = ["sgpthomas@gmail.com","sbuckleybonanno@gmail.com"],
-    description = ("A python library that facilitates communicating with Arduinos to control."),
-    packages=['labsight'],
+    version = "1.0",
+    author = ["Samuel Buckley-Bonanno"],
+    author_email = ["sbuckleybonanno@gmail.com"],
+    description = ("A little Python library made to find the outcome of a thought experiment I had about randomly generated LISP"),
+    packages=['parenthesis-closure'],
 )
