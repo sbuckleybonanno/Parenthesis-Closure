@@ -40,6 +40,10 @@ class Node(object):
 
     def extend(self, depth):
         # Extends the depth of this node's descendants to the provided depth
+
+        if depth <= 0:
+            return
+
         if len(self.descendants) > 0:
             raise Exception("A node only needs to be extended once")
         if depth == 0:
@@ -63,7 +67,6 @@ class Node(object):
         probability_sum = 0
         probability = 1
         if len(self.descendants) == 0:
-            # print(self.parentheses)
             if self.closed:
                 return 1
             else:
