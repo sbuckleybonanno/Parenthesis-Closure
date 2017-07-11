@@ -9,10 +9,10 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "parenthesis-closure",
+    name = "parenthesisclosure",
     version = "1.0",
     author = ["Samuel Buckley-Bonanno"],
     author_email = ["sbuckleybonanno@gmail.com"],
     description = ("A little Python library made to find the outcome of a thought experiment I had about randomly generated LISP"),
-    packages=['parenthesis-closure'],
+    packages=['parenthesisclosure'],
 )
