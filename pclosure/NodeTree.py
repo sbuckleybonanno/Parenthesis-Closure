@@ -1,0 +1,3 @@
+class PTree(object):
+
+    nodes = []
